@@ -2,7 +2,7 @@ const { createProxyMiddleware } = require("http-proxy-middleware");
 
 module.exports = (req, res) => {
   // rsshub proxy
-  let target = "https://rsshub.rssforever.com/";//your website url
+  let target = "https://rsshub.app/";//your website url
   //   if (
   //     test
   //     req.url.startsWith("/api") ||
